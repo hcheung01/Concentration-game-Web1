@@ -16,6 +16,7 @@ width: 100%;
 height: 200%;
 position: absolute;
 top: 0;
+transition: 400ms;
 }
 
 .game-square > div > div {
@@ -64,13 +65,14 @@ background-color: chartreuse;
 background-color: chocolate;
 }
 
-.square-8 {
+/*.square-8 {
 background-color: coral;
 }
 
 .square-9 {
 background-color: cornflowerblue;
-}
+}*/
+
 /*Arrange the squares in a grid*/
 /*FLEXBOX*/
 #game {
